@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: pytest
-        setup-command: pip install pytest  --break-system-packages
+        setup-command: pip install pytest
         command: python -m pytest -rA
         timeout: 10
         max-score: 3
